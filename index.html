@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>KORVPN</title>
+
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Фоновая графика -->
+  <div class="bg-glow blue"></div>
+  <div class="bg-glow purple"></div>
+
+  <div class="app">
+
+    <h1 class="title">KORVPN</h1>
+
+    <div class="server-card fade-in">
+      <div class="server-header">
+        <img src="images/nl.png" class="flag" alt="Netherlands">
+        <span class="server-name">Нидерланды</span>
+      </div>
+
+      <div class="key-box">
+        <div class="key-preview" id="keyPreview">
+          ss://a8f3...9KdL
+        </div>
+        <button id="copyBtn">Скопировать</button>
+      </div>
+    </div>
+
+    <p class="hint">
+      Новые сервера будут добавляться со временем
+    </p>
+
+    <div class="faq fade-in">
+      <h2>FAQ / Инструкция</h2>
+
+      <details>
+        <summary>Как установить Outline?</summary>
+        <p>Скачайте приложение Outline из App Store или Google Play.</p>
+        <a href="https://play.google.com/store/apps/details?id=org.outline.android.client&hl=ru" style="color: azure;">Android</a>
+        <a href="https://apps.apple.com/us/app/outline-app/id1356177741"style="color: azure;">iOS</a>
+      </details>
+
+      <details>
+        <summary>Как добавить ключ?</summary>
+        <p>Нажмите «Добавить сервер» и вставьте скопированный ключ.</p>
+      </details>
+
+      <details>
+        <summary>Как подключиться?</summary>
+        <p>Выберите сервер и нажмите «Подключиться», при необходимости установите VPN-профиль на Ваше устройство</p>
+      </details>
+    </div>
+
+    <div class="donate fade-in">
+      <h2>Поддержать проект</h2>
+      <img src="images/qr.jpg" alt="Donate QR" width="100" height="100">
+      <p>TonCoin (TON)</p>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
